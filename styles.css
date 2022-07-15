@@ -80,7 +80,8 @@ body {
 .list {
   list-style: none;
   padding: 0 17px;
-  }
+}
+
 .list li {
   margin-bottom: 3px;
 }
@@ -88,8 +89,8 @@ body {
 .table {
   width: 100%;
   text-align: left;
-  }
+}
 
 .frame td{
   width: 150px;
-  }
+}
