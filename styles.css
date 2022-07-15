@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  font-family: 'Rubik', Trebuchet, sans-serif ;
+  font-size: 14px;
+  font-weight: normal;
+  background: rgba(187, 240, 232, 0.55);
+  color: #0f141e;
+}
+
+.cont {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: -5px -5px  15px rgba(0, 0, 0, 0.25 );
+}
+
+.head {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+/*.head {
+  margin-bottom: 20px;
+  display: flex;
+}*/
+
+@media (max-width: 650px) {
+  .head {
+    display: block;
+    text-align: center;
+  }
+}
+
+.text {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.text p{
+  font-size: 15px;
+}
+
+.post {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 12px;
+  background: rgba(97, 144, 138, 0.39);
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .card {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.info {
+  background: rgba(74, 146, 168, 0.39);
+}
+
+.list {
+  list-style: none;
+  padding: 0 17px;
+  }
+.list li {
+  margin-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.frame td{
+  width: 150px;
+}
